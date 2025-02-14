@@ -3,10 +3,10 @@
   tasks:
     - name: install httpd
       yum:
-      - name: httpd
+        name: httpd
         state: latest
       when: ansible_os_family="RedHat"
       apt:
-      - name: apache2
+        name: apache2
         state: latest
       when: ansible_os_family="Debian"
