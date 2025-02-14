@@ -3,13 +3,13 @@
   become: true
   tasks:
     - name: install httpd
-      dnf:
+      package:
         name: httpd
         state: latest
       when: ansible_os_family == "RedHat"
       ignore_errors: true
     - name: install apache2
-      apt:
+      package:
         name: apache2
         state: latest
       when: ansible_os_family == "Debian"
