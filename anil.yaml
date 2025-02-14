@@ -1,7 +1,7 @@
-- name: this is my first playbook
-  hosts: all 
-  -name : print hello 
-  debug:
+   -name : this is my first playbook
+   hosts: all 
+    -name: print hello 
+   debug:
     msg: "hello this is mentore solution"
     -name: print hi
     debug: 
