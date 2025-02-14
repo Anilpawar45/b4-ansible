@@ -4,10 +4,10 @@
   #   pokemon: "pikachu"
   # vars_files:         #file varible
   #    - ./var.txt
-  vars_prompt:
-        name: pokemon
-        prompt: "what is your name:"
-        private: false
+  # vars_prompt:
+  #       name: pokemon
+  #       prompt: "what is your name:"
+  #       private: false
   tasks:
     - name: your fevourite pokemon
       debug:
