@@ -1,5 +1,6 @@
 - name: yum and apt with conditions
   hosts: all
+  
   tasks:
     - name: install httpd
       yum:
