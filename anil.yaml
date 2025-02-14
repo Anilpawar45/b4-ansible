@@ -1,4 +1,4 @@
-- name : this is my first playbook
+- name: this is my first playbook
   hosts: all 
   -name : print hello 
   debug:
