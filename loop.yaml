@@ -4,4 +4,6 @@
     - name: install diff package
       
 
-  
+  loop:
+    - vim
+    
