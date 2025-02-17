@@ -1,4 +1,5 @@
 - name: install multiple software
   hosts: all
   tasks:
-    - name: ins
+    - name: install diff package
+      
