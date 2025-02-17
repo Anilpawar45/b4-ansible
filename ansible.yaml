@@ -1,0 +1,14 @@
+- name: My first play
+  hosts: all
+  vars:
+    var_files:
+     - ./var.txt
+    pokeman: "pikachu"
+  tasks:   
+    - name: print hello msg
+      debug:
+        msg: "{{pokeman}}"
+
+    - name: Print message
+      debug:
+       msg: "{{pokeman}}"
