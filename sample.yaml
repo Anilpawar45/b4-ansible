@@ -25,5 +25,5 @@
       register: host
     - name: print the register value
       debug:
-        msg: "{{host.}}"
+        msg: "{{host.stdout}}"
 
