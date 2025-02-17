@@ -22,7 +22,7 @@
         pokemon: "pichu"
     - name: registor output as variable
       shell: hostname
-      register: hostname
+      register: URL
     - name: print the register value
       debug:
         msg: "{{hostname}}"
