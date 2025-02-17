@@ -5,8 +5,7 @@
       package: 
          name: "{{item}}"
          state: latest 
-
-  loop:
-    - vim
-    - wget
-    - nginx
+      loop:
+        - vim
+        - wget
+        - nginx
