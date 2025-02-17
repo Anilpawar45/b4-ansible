@@ -7,8 +7,8 @@
   tasks:   
     - name: print hello msg
       debug:
-        msg: "{{pokeman}}"
+        msg: "{{pokemon}}"
 
     - name: Print message
       debug:
-       msg: "{{pokeman}}"
+       msg: "{{pokemon}}"
