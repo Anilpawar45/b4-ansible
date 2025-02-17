@@ -1,8 +1,8 @@
-- name: this is my first playbook
-  hosts: all
-   - name: print hello msg
-     debug: 
-      msg: "hello this is ansible"
-   - name: print i am ansible
-     debug:
-       msg: "i am anil"
+# - name: this is my first playbook
+#   hosts: all
+#    - name: print hello msg
+#      debug: 
+#       msg: "hello this is ansible"
+#    - name: print i am ansible
+#      debug:
+#        msg: "i am anil"
