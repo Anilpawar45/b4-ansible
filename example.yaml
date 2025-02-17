@@ -2,7 +2,7 @@
   hosts: all
   vars:
      pokeman: "pikachu"
-  tasts:   
+  tasks:   
     - name: print hello msg
       debug:
         msg: "{{pokeman}}"
