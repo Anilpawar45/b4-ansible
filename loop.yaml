@@ -2,7 +2,7 @@
   hosts: all
   tasks:
     - name: install diff package
-    "{{intem}}" 
+      package: "{{intem}}" 
 
   loop:
     - vim
