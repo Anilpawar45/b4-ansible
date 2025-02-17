@@ -1,22 +1,14 @@
-- name: this is my 1st playbook
-  hosts: all
-  vars:                 #global variable
-    pokemon: "pikachu"
-  vars_files:         #file varible
-     - ./var.txt
-  vars_prompt:
-        name: pokemon
-        prompt: "what is your name:"
-        private: false
-  tasks:
-    - name: your fevourite pokemon
-      debug:
-        msg: "{{pokemon}}"    #variable calling
-    - name: print HI
-      debug:
-        msg: "{{pokemon}}"
-    - name: local varible available
-      debug:
-        msg: "{{pokemon}}"
-      vars:                     #local variable
-        pokemon: "pichu"
+# - name: this is my 1st playbook
+#   hosts: all
+ 
+#     - name: your fevourite pokemon
+#       debug:
+#         msg: "{{pokemon}}"    #variable calling
+#     - name: print HI
+#       debug:
+#         msg: "{{pokemon}}"
+#     - name: local varible available
+#       debug:
+#         msg: "{{pokemon}}"
+#       vars:                     #local variable
+#         pokemon: "pichu"
