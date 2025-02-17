@@ -1,6 +1,5 @@
 - name: this is my first playbook
   hosts: all
-  tasts:
    - name: print hello msg
      debug: 
       msg: "hello this is ansible"
