@@ -1,7 +1,7 @@
 - name: this is my 1st playbook
   hosts: all
-  # vars:                 #global variable
-  #   pokemon: "pikachu"
+  vars:                 #global variable
+    pokemon: "pikachu"
   # vars_files:         #file varible
   #    - ./var.txt
   # vars_prompt:
@@ -22,4 +22,4 @@
         pokemon: "pichu"
     - name: registor output as variable
       shell: hostname
-      
+
