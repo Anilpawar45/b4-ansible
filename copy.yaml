@@ -3,5 +3,5 @@
   tasks:
     - name: copy file
       copy:
-        src: /home/ubuntu
+        src: /home/ubuntu/b4-ansible/index.html
         dest:
