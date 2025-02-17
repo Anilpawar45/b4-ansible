@@ -4,7 +4,7 @@
     - name: print diff msg
       debug: 
         msg: "{{item}}"
-      loop: {{}}
+      loop: {{ babana, apple, }}
     - name: install diff package
       package: 
          name: "{{item}}"
