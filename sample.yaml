@@ -25,5 +25,5 @@
       register: hostname
     - name: print the register value
       debug:
-        msg: hostname
+        msg: "{{hostname}}"
 
