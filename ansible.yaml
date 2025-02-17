@@ -12,3 +12,5 @@
     - name: Print message
       debug:
        msg: "{{pokemon}}"
+       vars:
+        pokemon: "spider"
