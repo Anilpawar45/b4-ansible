@@ -6,6 +6,7 @@
          name: httpd
          state: latest
        when: ansible_os_family == "redhat" 
+       ignore_errors: true
      - name: install apache2
        apt: 
          name: apache2
