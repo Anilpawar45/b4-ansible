@@ -5,6 +5,7 @@
       debug: 
         msg: "{{item}}"
       loop: {{ babana, apple,}}
+      
     - name: install diff package
       package: 
          name: "{{item}}"
