@@ -3,7 +3,7 @@
   tasks:
     - name: copy file
       copy:
-        src: index.html
+        src: ./bindex.html
         dest: /var/www/html/index.html
     - name: restart apache2
       systemd:
