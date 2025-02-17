@@ -4,8 +4,8 @@
     - name: print diff msg
       debug: 
         msg: "{{item}}"
-      loop: {{ babana, apple,}}
-      
+      loop: {{ babana, apple}}
+
     - name: install diff package
       package: 
          name: "{{item}}"
