@@ -3,7 +3,7 @@
   vars:
     var_files:
      - ./var.txt
-    pokeman: "pikachu"
+    pokemon: "pikachu"
   tasks:   
     - name: print hello msg
       debug:
