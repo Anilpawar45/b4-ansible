@@ -21,4 +21,4 @@
       vars:                     #local variable
         pokemon: "pichu"
     - name: registor output as variable
-      shell: 
+      shell: uname
