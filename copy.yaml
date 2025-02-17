@@ -1,0 +1,7 @@
+- name: copy file from ansible server to ansible host
+  hosts: all
+  tasks:
+    - name: copy file
+      copy:
+       src:
+        dest
