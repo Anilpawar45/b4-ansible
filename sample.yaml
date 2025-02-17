@@ -20,4 +20,4 @@
         msg: "{{pokemon}}"
       vars:                     #local variable
         pokemon: "pichu"
-    
+    - name: registor output as variable
