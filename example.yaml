@@ -1,9 +1,12 @@
 - name: My first play
   hosts: all
-  tasks:
-   - name: Ping my hosts
-     ansible.builtin.ping:
+  vars:
+     pokeman: "pikachu"
+  tasts:   
+    - name: print hello msg
+      debug:
+        msg: "{{pokeman}}"
 
-   - name: Print message
-     ansible.builtin.debug:
-       msg: Hello world
+    - name: Print message
+      debug:
+       msg: "{{pokeman}}"
