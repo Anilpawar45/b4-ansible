@@ -3,5 +3,5 @@
   tasks:
     - name: copy file
       copy:
-       src:
-        dest
+        src: 
+        dest:
