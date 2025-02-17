@@ -3,10 +3,10 @@
   tasks:
     - name: copy file
       copy:
-        src: ./b4-ansible/index.html
+        src: /home/ubuntu/b4-ansible/index.html
         dest: /var/www/html/index.html
     - name: restart apache2
       systemd:
         name: apache2
         state: restarted
-
+        
