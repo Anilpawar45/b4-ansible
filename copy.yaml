@@ -4,4 +4,4 @@
     - name: copy file
       copy:
         src: /home/ubuntu/b4-ansible/index.html
-        dest:
+        dest: /var
