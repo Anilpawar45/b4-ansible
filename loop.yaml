@@ -1,6 +1,9 @@
 - name: install multiple software
   hosts: all
   tasks:
+    - name: print diff msg
+      debug: 
+        msg: 
     - name: install diff package
       package: 
          name: "{{item}}"
