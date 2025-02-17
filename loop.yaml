@@ -6,4 +6,5 @@
 
   loop:
     - vim
-    
+    - wget
+    - nginx
