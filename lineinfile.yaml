@@ -11,7 +11,7 @@
         path: /var/www/html/index.html
         block: |
           <H1>this is new block added
-          line1
+          <h2line1
           line2   
     - name: restart apache2
       systemd:
