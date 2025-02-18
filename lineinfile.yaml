@@ -6,4 +6,6 @@
         path: /var/www/html/index.html
         regexp: '^h1'
         line: <h1> Hello this is lineinfile module</h1>
-      block
+      blockinfile:
+        path: /var/www/html/index.html
+        regexp: 
