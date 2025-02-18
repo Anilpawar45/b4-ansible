@@ -9,5 +9,5 @@
       blockinfile:
         path: /var/www/html/index.html
         regexp: '^h1'
-        block:
-           
+        block: |
+                       
