@@ -11,6 +11,6 @@
         path: /var/www/html/index.html
         regexp: '^h1'
         block: |
-            this is new block added
-            line1
+           this is new block added
+           line1
             line2           
