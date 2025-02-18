@@ -4,4 +4,4 @@
     - name: changing line
       lineinfile:
       path: /var/www/html/index.html
-      regi
+      regix
