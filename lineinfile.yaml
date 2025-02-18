@@ -3,4 +3,5 @@
   tasks:
     - name: changing line
       lineinfile:
-      path
+      path: /var/www/html/index.html
+      regi
