@@ -9,7 +9,6 @@
     - name: block adding
       blockinfile:
         path: /var/www/html/index.html
-        regexp: '^h1'
         append_newline: true
         block: |
           this is new block added
