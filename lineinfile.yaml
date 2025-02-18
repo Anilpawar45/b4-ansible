@@ -9,6 +9,7 @@
     - name: block adding
       blockinfile:
         path: /var/www/html/index.html
+        marker: "<!-- {mark} ANSIBLE MANAGED BLOCK -->"
         block: |
           <h1>this is new block added</h1>
           <h2>line1</h2>
