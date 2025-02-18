@@ -1,2 +1,5 @@
 - name: change line in the existing file
-  hosts: availabl
+  hosts: all
+  tasks:
+    - name: changing line
+      lineinfile:
