@@ -1,1 +1,2 @@
 - name: change line in the existing file
+  hosts: availabl
