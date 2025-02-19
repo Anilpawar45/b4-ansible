@@ -1,5 +1,7 @@
 - name: My first play
   hosts: all
+  var_files:
+    - ./var.txt
   vars:
     pokemon: "pikachu"
   tasks:   
