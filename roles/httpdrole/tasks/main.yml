@@ -8,7 +8,7 @@
     dest: /var/www/html/index.html
 - name: restart httpd
   systemd:
-     name: httpd
+     name: "{{package}}"
      state: restarted
      enable: true
   
