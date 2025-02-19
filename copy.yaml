@@ -1,7 +1,7 @@
 - name: copy file from ansible server to ansible hosts
   hosts: all
   tasks:
-  - name: copy
+  - name: copy file
     copy:
     src: /home/ubuntu/Ansible/index.html
     dest: /var/www/html/index.html
