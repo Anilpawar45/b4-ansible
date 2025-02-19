@@ -1,11 +1,11 @@
 - name: copy file from ansible server to ansible hosts
   hosts: all
   tasks:
-  - name: copy file
-    copy:
-    src: /home/ubuntu/Ansible/index.html
-    dest: /var/www/html/index.html
-  - name: restart apache2
-    systemd:
-      name: apache2
-      state: restarted
+   - name: copy file
+     copy:
+     src: /home/ubuntu/Ansible/index.html
+     dest: /var/www/html/index.html
+   - name: restart apache2
+     systemd:
+       name: apache2
+       state: restarted
