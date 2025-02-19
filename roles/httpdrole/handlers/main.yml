@@ -1,4 +1,4 @@
-- name: restart httpd
+- name: restart service
   systemd:
      name: "{{package}}"
      state: restarted
