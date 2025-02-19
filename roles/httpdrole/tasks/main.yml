@@ -7,5 +7,7 @@
     src: /home/ubuntu/b4-ansible/index.html
     dest: /var/www/html/index.html
 - name: restart httpd
-  system
+  systemd:
+     name: httpd
+     
   
