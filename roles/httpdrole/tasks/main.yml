@@ -2,5 +2,5 @@
   package:
     name: httpd
     state: latest
-- name: 
+- name: copy index.html file
   
