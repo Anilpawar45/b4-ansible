@@ -1,6 +1,6 @@
 - name: install apache2
   package:
-    name: httpd
+    name: "{{package}}"
     state: latest
 - name: copy index.html file
   copy:
