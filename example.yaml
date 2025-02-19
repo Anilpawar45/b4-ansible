@@ -7,7 +7,7 @@
       debug:
         msg: "{{subject}}"
 
-    - name: Print subject
+    - name: Print subject name
       debug:
        msg: "{{subject}}"
        vars:
