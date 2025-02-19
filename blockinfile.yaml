@@ -3,11 +3,11 @@
   tasks:
     - name: block adding
       blockinfile:
-      path: /var/www/html/index.html
-      block: |
-         <h1> this is pune </h1>
-         <h2> i am anil pawar </h1>
-         <h3> this is mentore solution </h3>
+          path: /var/www/html/index.html
+          block: |
+              <h1> this is pune </h1>
+              <h2> i am anil pawar </h1>
+              <h3> this is mentore solution </h3>
     - name: restart apache2
       systemd:
          name: apache2     
