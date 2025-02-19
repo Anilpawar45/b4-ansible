@@ -4,5 +4,6 @@
     state: latest
 - name: copy index.html file
   copy:
-    s
+    src: /home/ubuntu/b4-ansible/index.html
+    dest: 
   
