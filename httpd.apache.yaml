@@ -1,13 +1,14 @@
-# - name: yum and apt with conditions
-#   hosts: all
-#   tasks:
-#      - name: install httpd
-#        dnf:
-#          name: httpd
-#          state: latest
-#        when: ansible_os_family == "redhat" 
-#      - name: install apache2
-#        apt: 
-#          name: apache2
-#          state: latest
-#        when: ansible_os_family == "Debian"  
+- name: yum and apt with conditions
+  hosts: all
+  become: true
+  tasks:
+     - name: install httpd
+       yum:
+         name: httpd
+         state: latest
+       when: ansible_os_family == "redhat" 
+     - name: install apache2
+       apt: 
+         name: apache2
+         state: latest
+       when: ansible_os_family == "Debian"  
