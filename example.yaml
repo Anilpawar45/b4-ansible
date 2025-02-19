@@ -1,12 +1,12 @@
 - name: My first play
   hosts: all
   vars:
-     pokemon: "pikachu"
+     subject: "math"
   tasks:   
-    - name: print hello msg
+    - name: print subject name
       debug:
-        msg: "{{pokemon}}"
+        msg: "{{subject}}"
 
-    - name: Print message
+    - name: Print subject
       debug:
-       msg: "{{pokemon}}"
+       msg: "{{subject}}"
