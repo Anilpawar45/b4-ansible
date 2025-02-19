@@ -6,4 +6,4 @@
       register: anilpawar
     - name: print hostname
       debug:
-        msg: "{{anilpawar.msg}}"
+        msg: "{{anilpawar.stdout}}"
