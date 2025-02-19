@@ -9,5 +9,3 @@
     - name: Print subject name
       debug:
        msg: "{{subject}}"
-       vars:
-        subject: "linux"
