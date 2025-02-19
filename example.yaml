@@ -6,9 +6,8 @@
     - name: print subject name
       debug:
         msg: "{{subject}}"
-
     - name: Print subject name
       debug:
        msg: "{{subject}}"
        vars:
-         subject: "aws cloud"
+        subject: "devops"
