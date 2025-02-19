@@ -1,1 +1,1 @@
-pokemon: "ninja"
+pokemon:"ninja"
