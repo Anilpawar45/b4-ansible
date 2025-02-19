@@ -10,4 +10,4 @@
       debug:
        msg: "{{subject}}"
        vars:
-        subject: "devops"
+        subject: "linux"
