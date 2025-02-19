@@ -4,7 +4,7 @@
     - name: copy file
       copy:
        src: /home/ubuntu/Ansible/index.html
-       dest: /var/www/html/index.html
+       dest: /var/www/html/index.html 
     - name: restart apache2
       systemd:
         name: apache2
