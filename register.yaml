@@ -1,0 +1,9 @@
+- name: register value
+  hosts: all
+  tasks:
+    - name: get hostname
+      shell: hostname
+      register: anilpawar
+    - name: print hostname
+      debug:
+        msg: "{{anilpawar.msg}}"
