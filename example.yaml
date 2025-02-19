@@ -1,7 +1,7 @@
 - name: My first play
   hosts: all
   vars:
-     pokeman: "pikachu"
+     pokemon: "pikachu"
   tasks:   
     - name: print hello msg
       debug:
