@@ -1,0 +1,14 @@
+- name: My first play
+  hosts: all
+  vars_files:
+    - ./var.txt
+  vars:
+    college: "ghraisoni"
+  tasks:   
+    - name: print college name
+      debug:
+        msg: "{{college}}"
+
+    - name: Print college name
+      debug:
+       msg: "{{college}}"

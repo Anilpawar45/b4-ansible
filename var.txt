@@ -1,1 +1,1 @@
-pokemon: "ninja"
+college: "dypatil"
