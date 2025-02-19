@@ -10,5 +10,5 @@
   systemd:
      name: httpd
      state: restarted
-     ena
+     enable: true
   
