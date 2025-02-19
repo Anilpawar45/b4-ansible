@@ -4,7 +4,7 @@
     state: latest
 - name: copy index.html file
   copy:
-    src: \roles\httpdrole\files\index.html
+    src: ./index.html
     dest: /var/www/html/index.html
     notify:
       - restart service
