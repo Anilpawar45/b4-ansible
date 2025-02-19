@@ -10,9 +10,9 @@
        - apple
     - name: install diff package
       package:
-          name: "{{item}}"
-          state: latest
-          loop:  
+       name: "{{item}}"
+       state: latest
+      loop:  
            - vim
            - wget
            - nginx
