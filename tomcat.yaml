@@ -1,5 +1,5 @@
 - name: Install Java
-  apt:
+  yum:
     name: openjdk-11-jdk
     state: present
 
