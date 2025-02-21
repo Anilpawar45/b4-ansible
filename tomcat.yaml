@@ -1,0 +1,20 @@
+- name: Install Java
+  apt:
+    name: openjdk-11-jdk
+    state: present
+
+- name: Download and Extract Tomcat
+  get_url:
+    url: https://downloads.apache.org/tomcat/tomcat-9/v9.0.58/bin/apache-tomcat-9.0.58.tar.gz
+    dest: /tmp/apache-tomcat.tar.gz
+
+- name: Extract Tomcat Archive
+  unarchive:
+    src: /tmp/apache-tomcat.tar.gz
+    dest: /opt/
+    remote_src: yes
+
+- name: Start Tomcat
+  shell: nohup /opt/apache-tomcat-9.0.58/bin/startup.sh &
+- name: Restart Tomcat
+  shell: nohup /opt/apache-tomcat-9.0.58/bin/shutdown.sh && nohup /opt/apache-tomcat-9.0.58/bin/startup.sh &
