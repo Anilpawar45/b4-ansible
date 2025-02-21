@@ -1,0 +1,4 @@
+- name: execute my apache role 
+  hosts: all
+  roles: 
+      - apacherole

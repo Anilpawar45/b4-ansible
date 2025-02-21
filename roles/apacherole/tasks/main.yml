@@ -1,2 +1,10 @@
----
-# tasks file for apacherole
+- name: install apache2
+  package: 
+      name: "{{package}}"
+      state: latest
+- name: copy index.html file
+  copy:
+    src: ./index.html
+    dest: /var/www/html/index.html
+    notify: 
+        - restart httpd      
